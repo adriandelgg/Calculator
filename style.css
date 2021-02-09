@@ -15,7 +15,7 @@ img {
 
 h1 {
     text-align: center;
-    margin-top: .6em;
+    margin-top: .3em;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -25,18 +25,13 @@ h3 {
     margin-right: .1em;
 }
 
-p {
-    font-size: 1.3rem;
-    padding-top: .5em;
-}
-
 .calculator {
     border: 4px solid black;
-    min-height: 550px;
+    min-height: 535px;
     max-width: 350px;
-    margin: 2.5em auto;
+    margin: 1.5em auto;
     border-radius: 25px;
-    /* background-color: #566aa8; */
+    /* filter: drop-shadow(3px 3px black); */
 }
 
 .buttons-and-text {
@@ -74,13 +69,14 @@ p {
     display: flex;
 }
 
-.number-input {
+button {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 50px;
     width: 60px;
     height: 60px;
     margin: .3em;
+    font-size: 1.3rem;
     /* background-color: #7e98e6; */
 }
 
